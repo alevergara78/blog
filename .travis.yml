@@ -2,4 +2,5 @@ language: node_js
 node_js:
   - "6"
 
-  
+notifications:
+ slack: orsan-ti:xtAvOlLWK72B7zu9XpMNlNB2
