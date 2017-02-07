@@ -1,0 +1,30 @@
+{
+  "name": "Blog_CI",
+  "version": "1.0.0",
+  "description": "Setup Travis CI for blog project",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alevergara78/blog.git"
+  },
+  "keywords": [
+    "GitHub",
+    "Travis",
+    "Node",
+    "Tools",
+    "Build",
+    "CI"
+  ],
+  "author": "alevergara78 <alevergara78@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alevergara78/blog/issues"
+  },
+  "homepage": "https://github.com/alevergara78/blog#readme",
+  "devDependencies": {
+    "mocha": "^2.4.5"
+  }
+}
