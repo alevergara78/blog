@@ -8,7 +8,8 @@ notifications:
 
 deploy:
   provider: releases
-  api_key: "5c837f747a541efabd51ca88c63bdfa630f83aeb"
+  user: "alevergara78@gmail"
+  password: "sicario0341"
   file: "file_version"
   skip_cleanup: true
   on:
