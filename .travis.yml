@@ -4,3 +4,12 @@ node_js:
 
 notifications:
  slack: orsan-ti:xtAvOlLWK72B7zu9XpMNlNB2
+
+
+deploy:
+  provider: releases
+  api_key: "5c837f747a541efabd51ca88c63bdfa630f83aeb"
+  file: "file_version"
+  skip_cleanup: true
+  on:
+    tags: true
